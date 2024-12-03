@@ -1,0 +1,86 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .menu1{
+    border: 5px solid red;
+    height: 70px;
+    font-size: 20px;
+    background-color: rgb(200,100,500,.25);
+}
+#logo{
+    width: 100px;
+    height: 90px;
+    margin-left: 3px;
+    margin-top: -8px;
+}
+.nav1{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+.nav1 li{
+    float: left;
+    margin-left: 60px;
+}
+.nav1 li a{
+    text-decoration: none;
+} 
+.nav1 li a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color:black;
+    background-color: red;
+    border-radius: 10px;
+}
+.nav1 li ul{
+    list-style: none;
+    margin-left: -10px;
+    margin-bottom: 60px;
+    display: none;
+}
+.nav1 li ul li{
+    float: none;
+    margin: 25px 0px;
+
+}
+.nav1 li:hover .m0{
+    display: block;
+}
+.cermain:hover .m1{
+    display: block;
+}
+#p1{
+  height: 200px;
+  width: 200px;
+  border-radius:50%;
+  margin-left: 1000px;
+  margin-top: 40px;
+ border-bottom: 5px dotted red ;
+ border-top: 5px dotted greenyellow;
+ box-shadow: 5px 5px 2px red;
+}
+#name{
+    text-transform: uppercase;
+    font-family: algerian ;
+    color: red;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow:  4px 4px 1px black;
+    position: absolute;
+    top: 275px;
+    left: 1050px;
+
+}
+@font-face {
+    font-family: "handwrite" ;
+    src: url(Bokor-Regular.ttf);
+}
+.s{
+    font-family: "handwrite";
+}
+
+#about1{
+    text-decoration: color(red);
+    }
